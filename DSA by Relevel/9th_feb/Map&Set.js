@@ -2,14 +2,14 @@
 
 //  Map is a data structure which holds elements as (key value ) pair, and the keys in a map are unique.
 
-let m = new Map();
+// let m = new Map();
 
-// Set key, value pairs
+//  Set key, value pairs
 
-m.set(1, "Vikas");
-m.set(2, "Jayesh");
-m.set(1, "Preeti"); // it will overwrite
-m.set("name", "Kashyap");
+// m.set(1, "Vikas");
+// m.set(2, "Jayesh");
+// m.set(1, "Preeti"); // it will overwrite
+// m.set("name", "Kashyap");
 
 // console.log(m);
 
@@ -17,47 +17,34 @@ m.set("name", "Kashyap");
 // console.log(m.get("name"));
 // console.log(m.get(1));
 
-//  Check if map contains a key
+// Check if map contains a key
 // console.log(m.has("name"));
-
-//  Set
-// Set is a data struture that holds unique keys
-let s = new Set();
-
-s.add(1);
-s.add(2);
-s.add(2); // it will overwrite
-
-// console.log(s);
-// To check if set contains a key, we use a function called "has"
-
-// console.log(s.has(1));
 
 // let map = new Map();
 
-map.set(1, "Jayesh");
-map.set(2, "Jayesh");
-map.set("first_name", "Jitandra");
-map.set("last_name", "Chauhan");
+// map.set(1, "Jayesh");
+// map.set(2, "Jayesh");
+// map.set("first_name", "Jitandra");
+// map.set("last_name", "Chauhan");
 
-console.log(map.get(1));
-console.log(map.keys());
-map.set(1, "chauhan");
+// console.log(map.get(1));
+// console.log(map.keys());
+// map.set(1, "chauhan");
 
-console.log("this is for values");
-console.log(map.values());
+// console.log("this is for values");
+// console.log(map.values());
 
 // all methods of Map funtions in javascript
-map.clear();
-map.delete();
-map.entries();
-map.forEach();
-map.get();
-map.has();
-map.keys();
-map.set();
-map.size();
-map.values();
+// map.clear();
+// map.delete();
+// map.entries();
+// map.forEach();
+// map.get();
+// map.has();
+// map.keys();
+// map.set();
+// map.size();
+// map.values();
 
 // NOTES:-  The Map object in JavaScript is a collection of key/value pairs and provides a lot of useful methods to work with. Here are some of the most commonly used methods with code examples:
 
@@ -158,3 +145,16 @@ map.values();
 // map.set('age', 30);
 // console.log(map.size);
 // // Output: 2
+
+//  Set
+// Set is a data struture that holds unique keys
+let s = new Set();
+
+s.add(1);
+s.add(2);
+s.add(2); // it will overwrite
+
+console.log(s);
+// To check if set contains a key, we use a function called "has"
+
+console.log(s.has(1));
